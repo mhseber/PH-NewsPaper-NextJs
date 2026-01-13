@@ -11,22 +11,23 @@ const Navbar = () => {
         <Link href="/news">News</Link>
       </li>
       <li className="text-lg">
-        <Link>Sara Desh</Link>
+        <Link href="/saradesh">Sara Desh</Link>
       </li>
       <li className="text-lg">
-        <Link>Politics</Link>
+        <Link href="/politics">Politics</Link>
       </li>
       <li className="text-lg">
-        <Link>Sports</Link>
+        <Link href="/sports">Sports</Link>
       </li>
       <li className="text-lg">
-        <Link>Business</Link>
+        <Link href="/business">Business</Link>
       </li>
       <li className="text-lg">
-        <Link>Technology</Link>
+        <Link href="/technology">Technology</Link>
       </li>
     </>
   );
+
   return (
     <div>
       <div className="navbar bg-[#1E293B] shadow-sm">
