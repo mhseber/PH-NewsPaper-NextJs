@@ -1,9 +1,35 @@
+import Link from "next/link";
 import React from "react";
 
 const Navbar = () => {
+  const navLinks = (
+    <>
+      <li className="text-lg">
+        <Link href="/">Home</Link>
+      </li>
+      <li className="text-lg">
+        <Link href="/news">News</Link>
+      </li>
+      <li className="text-lg">
+        <Link>Sara Desh</Link>
+      </li>
+      <li className="text-lg">
+        <Link>Politics</Link>
+      </li>
+      <li className="text-lg">
+        <Link>Sports</Link>
+      </li>
+      <li className="text-lg">
+        <Link>Business</Link>
+      </li>
+      <li className="text-lg">
+        <Link>Technology</Link>
+      </li>
+    </>
+  );
   return (
     <div>
-      <div className="navbar bg-base-100 shadow-sm">
+      <div className="navbar bg-[#1E293B] shadow-sm">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -25,51 +51,15 @@ const Navbar = () => {
             </div>
             <ul
               tabIndex="-1"
-              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
+              className="menu menu-sm dropdown-content  rounded-box z-1 mt-3 w-52 p-2 shadow"
             >
-              <li>
-                <a>Item 1</a>
-              </li>
-              <li>
-                <a>Parent</a>
-                <ul className="p-2">
-                  <li>
-                    <a>Submenu 1</a>
-                  </li>
-                  <li>
-                    <a>Submenu 2</a>
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <a>Item 3</a>
-              </li>
+              {navLinks}
             </ul>
           </div>
-          <a className="btn btn-ghost text-xl">daisyUI</a>
+          <h1 className="font-extrabold text-2xl">PH Newspaper</h1>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1">
-            <li>
-              <a>Item 1</a>
-            </li>
-            <li>
-              <details>
-                <summary>Parent</summary>
-                <ul className="p-2 bg-base-100 w-40 z-1">
-                  <li>
-                    <a>Submenu 1</a>
-                  </li>
-                  <li>
-                    <a>Submenu 2</a>
-                  </li>
-                </ul>
-              </details>
-            </li>
-            <li>
-              <a>Item 3</a>
-            </li>
-          </ul>
+          <ul className="menu menu-horizontal px-1">{navLinks}</ul>
         </div>
         <div className="navbar-end">
           <a className="btn">Button</a>
