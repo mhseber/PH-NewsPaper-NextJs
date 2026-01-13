@@ -52,15 +52,17 @@ const Navbar = () => {
             </div>
             <ul
               tabIndex="-1"
-              className="menu menu-sm dropdown-content  rounded-box z-1 mt-3 w-52 p-2 shadow"
+              className="menu menu-sm dropdown-content bg-red-500 hover:bg-red-600 text-white  rounded-box z-1 mt-3 w-52 p-2 shadow"
             >
               {navLinks}
             </ul>
           </div>
-          <h1 className="font-extrabold text-2xl">PH Newspaper</h1>
+          <h1 className="font-extrabold text-2xl pl-10">PH Newspaper</h1>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1">{navLinks}</ul>
+          <ul className="menu menu-horizontal px-1 bg-red-600 hover:bg-red-700 text-white font-bold rounded-md">
+            {navLinks}
+          </ul>
         </div>
         <div className="navbar-end">
           <a className="btn">Button</a>
