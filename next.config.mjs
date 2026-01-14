@@ -1,12 +1,20 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    domains: [ 'www.aljazeera.com',
-  'encrypted-tbn0.gstatic.com',
-  'example-cdn.com'], 
-  },
-   plugins: {
-    '@tailwindcss/postcss': {},
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'www.aljazeera.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'encrypted-tbn0.gstatic.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'example-cdn.com',
+      },
+    ],
   },
 };
 

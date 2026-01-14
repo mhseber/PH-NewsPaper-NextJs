@@ -6,9 +6,9 @@ import Image from "next/image";
 const breakingNewsData = [
   {
     _id: "1",
-    title: "Massive Floods Hit Northern Bangladesh",
+    title: "Bangladesh plane crash: What happened, what’s the latest",
     image:
-      "https://www.aljazeera.com/wp-content/uploads/2022/06/AP22169194233831.jpg?fit=1170%2C780&quality=80",
+      "https://www.aljazeera.com/wp-content/uploads/2025/07/afp_687e38353d23-1753102389.jpg?resize=730%2C410&quality=80",
     category: "Environment",
     publishedAt: "2026-01-14T10:00:00Z",
   },
