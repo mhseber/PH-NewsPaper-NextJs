@@ -1,5 +1,6 @@
 import BreakingNews from "./home/BreakingNews";
 import FeaturedHeadlines from "./home/FeaturedHeadlines";
+import LatestNewsFeed from "./home/LatestNewsFeed";
 import Trending from "./home/Trending";
 
 
@@ -11,6 +12,7 @@ export default function Home() {
      <Trending />
      <BreakingNews />
      <FeaturedHeadlines />
+     <LatestNewsFeed />
     </div>
   );
 }

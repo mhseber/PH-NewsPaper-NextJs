@@ -1,5 +1,5 @@
 "use client";
-
+import { FiArrowRight } from "react-icons/fi";
 import React from "react";
 import { motion } from "framer-motion";
 
@@ -60,16 +60,14 @@ const FeaturedHeadlines = () => {
               <h1 className="text-5xl font-bold text-black">
                 Which countries made the biggest deals with Israel in 2025?
               </h1>
-              <p className="py-6 text-gray-600">
+              <p className="py-6 text-gray-600 font-bold">
                 Israel signed several record multibillion-dollar gas, technology
                 and military deals with its trading partners last year.
               </p>
-              <motion.button
-                whileHover={{ scale: 1.05 }}
-                className="btn btn-soft btn-error bg-red-900 text-gray-300"
-              >
-                Get Started
-              </motion.button>
+              <button className="btn flex items-center gap-2 text-red-700 font-semibold group">
+                Read Full Story
+                <FiArrowRight className="group-hover:translate-x-1 transition-transform" />
+              </button>
             </motion.div>
           </div>
         </div>

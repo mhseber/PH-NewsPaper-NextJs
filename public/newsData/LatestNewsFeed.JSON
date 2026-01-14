@@ -1,0 +1,98 @@
+[
+  {
+    "id": "1",
+    "title": "Iran’s military on highest alert as US ratchets up strike threats",
+    "image": "https://www.aljazeera.com/wp-content/uploads/2026/01/afp_69677e635eed-1768390243.jpg?resize=730%2C410&quality=80",
+    "category": "World",
+    "publishedAt": "2026-01-14T10:00:00Z",
+    "highlights": [
+      "UK working with allies on fresh sanctions",
+      "Iran aims to avoid giving US excuse for escalation",
+      "France explores satellite support amid blackout"
+    ]
+  },
+  {
+    "id": "2",
+    "title": "Mapping who controls what in Yemen in 2026",
+    "image": "https://www.aljazeera.com/wp-content/uploads/2026/01/Interactive_Yemen_afterSTC_Jan13_2026-04-1768404418.png?resize=770%2C513&quality=80",
+    "category": "World",
+    "publishedAt": "2026-01-13T18:30:00Z",
+    "highlights": [
+     "Houthis maintain control over northern Yemen, including the capital Sanaa",
+    "Southern Transitional Council expands influence in the south with UAE backing",
+    "Internationally recognised government holds fragmented and weakened territories"
+    ]
+  },
+  {
+    "id": "3",
+    "title": "Are western leaders guilty of hypocrisy over calls for free speech in Iran?",
+    "image": "https://www.aljazeera.com/wp-content/uploads/2026/01/image-1768405150.jpg?resize=730%2C410&quality=80",
+    "category": "World",
+    "publishedAt": "2026-01-13T18:30:00Z",
+    "highlights": [
+      "Western governments condemn Iran while restricting dissent at home",
+    "Selective outrage raises questions over political double standards",
+    "Critics argue free speech is defended only when geopolitically convenient"
+    ]
+  },
+  {
+    "id": "4",
+    "title": "What are Trump’s military options for an attack on Iran?",
+    "image": "https://www.aljazeera.com/wp-content/uploads/2026/01/afp_6967731c27ec-1768387356.jpg?resize=770%2C513&quality=80",
+    "category": "World",
+    "publishedAt": "2026-01-13T18:30:00Z",
+    "highlights": [
+       "Options range from limited airstrikes to cyber warfare operations",
+    "Full-scale invasion seen as highly risky and politically costly",
+    "Regional escalation remains a major concern for US allies"
+    ]
+  },
+  {
+    "id": "5",
+    "title": "Iran, Gaza and the politics of counting the dead",
+    "image": "https://www.aljazeera.com/wp-content/uploads/2026/01/getty_6967966bf3-1768396396.jpg?resize=770%2C513&quality=80",
+    "category": "World",
+    "publishedAt": "2026-01-13T18:30:00Z",
+    "highlights": [
+     "Civilian death tolls are disputed and politically weaponised",
+    "Iran and Israel supporters use statistics to shape global narratives",
+    "Human rights groups warn against undermining verified casualty data"
+    ]
+  },
+  {
+    "id": "6",
+    "title": "Trump envoy announces launch of ‘phase two’ of plan to end Gaza war",
+    "image": "https://www.aljazeera.com/wp-content/uploads/2026/01/reuters_6967cec0-1768410816.jpg?resize=770%2C513&quality=80",
+    "category": "World",
+    "publishedAt": "2026-01-13T18:30:00Z",
+    "highlights": [
+      "Phase two focuses on ceasefire enforcement and reconstruction talks",
+    "Negotiations involve regional mediators including Egypt and Qatar",
+    "Scepticism remains over long-term peace guarantees"
+    ]
+  },
+  {
+    "id": "7",
+    "title": "Video shows moment anti-ICE protester is shot in face with projectile",
+    "image": "https://www.aljazeera.com/wp-content/uploads/2026/01/image-1768413514.jpg?resize=730%2C410&quality=80",
+    "category": "World",
+    "publishedAt": "2026-01-13T18:30:00Z",
+    "highlights": [
+     "Incident occurred during clashes between protesters and police",
+    "Video reignites debate over crowd-control weapons in the US",
+    "Civil rights groups demand independent investigation"
+    ]
+  },
+  {
+    "id": "8",
+    "title": "Reporter goes inside Aleppo tunnels dug by SDF fighters",
+    "image": "https://www.aljazeera.com/wp-content/uploads/2026/01/image-1768385099.jpg?resize=730%2C410&quality=80",
+    "category": "World",
+    "publishedAt": "2026-01-13T18:30:00Z",
+    "highlights": [
+      "Tunnels used for movement, storage and protection from air attacks",
+    "SDF fighters describe life underground amid ongoing conflict",
+    "Report reveals long-term impact of war on civilian infrastructure"
+    ]
+  }
+]
