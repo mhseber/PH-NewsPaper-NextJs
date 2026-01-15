@@ -3,7 +3,7 @@ import React from "react";
 const Trending = () => {
   return (
     <section>
-      <div className="flex justify-center items-center text-red-900 font-semibold  ">
+      <div className="flex justify-center items-center text-red-900 font-semibold pt-20 ">
         <span className="text-rotate text-7xl">
           <span className="justify-items-center">
             <span>BREAKING</span>

@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           {/* Logo + Name */}
           <div className="flex items-center gap-3">
-            <div className="w-12 h-12 rounded-full bg-red-600 text-white flex items-center justify-center font-bold text-xl animate-pulse">
+            <div className="w-16 h-16 rounded-full border-dashed border-4 border-gray-400 bg-red-600 text-white flex items-center justify-center font-bold text-2xl animate-pulse">
               PH
             </div>
             <div>
